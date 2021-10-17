@@ -1,9 +1,9 @@
 const Client = require('pg').Client;
 const client = new Client({
-    user:'postgres',    //db username
-    password:'1234',//db password
+    user:'',    //db username
+    password:'',//db password
     port:5432,  //commont port for pg
-    database:'test' //db name
+    database:'' //db name
 })
 
 
